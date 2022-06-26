@@ -1,0 +1,12 @@
+------------------------- /log.txt -------------------------
+For demonstration purposes, this currently updates on interaction, or when 'r' is pressed.
+A basic variable test will be printed upon pressing 'Export'
+
+Testing Line 1: test                    text
+Testing Line 2: This line here is a medium-length sentence.
+Testing Line 3: This is a short one.
+Testing Line 4: And I think you'll find that this is a particularly long sentence, relative to the previous two at least.
+Testing Line 5: The text here should wrap correctly, even line-breaking early when presented with a splendiferously long word.
+------------------------------------------------------------
+OK
+------------------------------------------------------------

@@ -2,4 +2,3 @@
 game/saves/persistent
 *.save
 game/saves/navigation.json
-*.txt
