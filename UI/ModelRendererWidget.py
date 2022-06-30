@@ -29,7 +29,7 @@ class ModelRendererWidget(QtWidgets.QOpenGLWidget):
     """
     def initializeGL(self):
         self.renderer.initRenderer()
-        self.renderer.setCameraPosition([0, 3, 3])
+        self.renderer.setCameraPosition(0, 3, 3)
         self.glInitialised.emit()
         
     """
