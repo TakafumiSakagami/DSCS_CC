@@ -7,7 +7,7 @@ cdef extern from "Renderer/DSCS/Renderer.hpp" namespace "Rendering::DSCS":
     ctypedef string "std::string"
     
     cdef cppclass Renderer:
-        pyRenderer() except +
+        Renderer() except +
         
         float aspect_ratio
         float clock_time
