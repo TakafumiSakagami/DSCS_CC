@@ -131,3 +131,6 @@ dmypy.json
 
 # Repo-specific excludes
 testdata/
+pyDSCSRenderer/Renderer/*
+pyDSCSRenderer/pyDSCSRenderer.cpp
+
