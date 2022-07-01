@@ -22,7 +22,7 @@ cdef extern from "Renderer/DSCS/Renderer.hpp" namespace "Rendering::DSCS":
         void advTime(float adv)
 
 cdef class DSCSRenderer:
-    cdef Renderer *thisptr
+    cdef Renderer* thisptr
     def __cinit__(self):
         self.thisptr = new Renderer()
         self.thisptr.aspect_ratio = 4/3
