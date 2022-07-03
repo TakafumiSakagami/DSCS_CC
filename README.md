@@ -5,6 +5,7 @@ Costume Creator for Digimon Story: Cyber Sleuth.
 ## Dependencies
 - PyQt5
 - [DSCSRenderer](https://github.com/Pherakki/DSCSRenderer) [Included with repository]
+- A C++ compiler
 
 ## Building Instructions
 ### Setting up Dependencies
