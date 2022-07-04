@@ -130,4 +130,13 @@ dmypy.json
 .pyre/
 
 # Repo-specific excludes
+*dylib
 testdata/
+CostumeEditor.build/
+CostumeEditor.dist/
+libs/DSCSRenderer/.gitignore
+libs/DSCSRenderer/CMakeLists.txt
+libs/DSCSRenderer/pyDSCSRenderer.cpp
+libs/DSCSRenderer/build/*
+libs/DSCSRenderer/dist/*
+!libs/DSCSRenderer/libs/Cg/*
